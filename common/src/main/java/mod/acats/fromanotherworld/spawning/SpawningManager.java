@@ -125,7 +125,7 @@ public class SpawningManager extends SavedData {
         if (player != null){
             List<AbstractThingEvent> l = possibleEvents(world, player);
             AbstractThingEvent event = l.get(world.random.nextInt(l.size()));
-            event.run();
+            // event.run();
         }
     }
 
